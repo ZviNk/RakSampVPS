@@ -1,0 +1,17 @@
+{
+  "name": "raksamp-arizona",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "siniukov-de",
+  "description": "A feature-rich RakSamp bot for Arizona RolePlay, running in the Wolfram ecosystem framework, designed to simplify the administration process.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siniukov-de/RakSamp-Arizona.git"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.10.2"
+  }
+}

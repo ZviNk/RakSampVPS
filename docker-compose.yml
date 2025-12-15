@@ -1,0 +1,12 @@
+version: '3'
+services:
+  raksamp-arizona:
+    build: .
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env
+    volumes:
+      - ./raksamp:/usr/src/app/raksamp
+      - ./logs:/home/crow/RakSamp/Arizona/logs
+    network_mode: "host"
